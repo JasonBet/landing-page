@@ -13,3 +13,21 @@ ul {
 a {
     text-decoration: none;
 }
+
+.navbar {
+    padding: 8px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.heading-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
