@@ -14,6 +14,7 @@ a {
     text-decoration: none;
 }
 
+/* Flexing navbar & heading logo/links */
 .navbar {
     padding: 8px 180px;
     display: flex;
@@ -25,6 +26,24 @@ a {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+}
+
+/* Flex for main Hero section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 24px;
+}
+
+.hero-col1 {
+    
+}
+
+.hero-image {
+    width: 400px;
+    height: auto;
 }
 
 
