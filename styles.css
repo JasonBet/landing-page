@@ -21,13 +21,43 @@ a {
     align-items: center;
 }
 
-.logo {
-    font-size: 18px;
-    font-weight: 900;
-}
-
 .heading-links {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Fonts & Colors*/
+.heading,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero-main-text,
+.logo {
+    color: #F9FAF8;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero-secondary-text,
+.heading-links {
+    font-size: 18px;
+    color: #E5E7EB;
 }
