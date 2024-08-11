@@ -55,6 +55,13 @@ a {
     height: auto;
 }
 
+.action-button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+
 
 
 
@@ -71,7 +78,8 @@ a {
 }
 
 .hero-main-text,
-.logo {
+.logo,
+.action-button {
     color: #F9FAF8;
 }
 
