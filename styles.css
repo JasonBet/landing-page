@@ -68,7 +68,26 @@ a {
     align-items: center;
 }
 
+.info-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 48px;
+}
 
+.item {
+    display: flex;
+    flex-flow: column wrap;
+    width: 160px;
+    align-items: center;
+    text-align: center;
+}
+
+.item > img{
+    width: 160px;
+    height: auto;
+}
 
 
 
