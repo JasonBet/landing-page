@@ -90,6 +90,8 @@ button {
 .item > img{
     width: 160px;
     height: auto;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
 }
 
 /* Flex for quote section */
