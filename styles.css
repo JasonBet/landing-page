@@ -84,6 +84,7 @@ button {
     width: 160px;
     align-items: center;
     text-align: center;
+    gap: 8px;
 }
 
 .item > img{
@@ -101,7 +102,7 @@ button {
 
 .quote-source {
     align-self: flex-end;
-    padding: 0px 16px;
+    padding: 0px 24px;
 }
 
 /* Flex action banner */
