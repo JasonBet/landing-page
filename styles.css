@@ -1,4 +1,4 @@
-body {
+body, div, p {
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
@@ -56,7 +56,6 @@ a {
 }
 
 .action-button {
-    background-color: #3882F6;
     border: none;
     border-radius: 8px;
     padding: 8px 24px;
@@ -67,6 +66,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 .info-items {
@@ -103,7 +103,27 @@ a {
     padding: 0px 16px;
 }
 
+/* Flex action banner */
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
 
+.action-banner {
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.action-col {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
 
 /* Fonts & Colors*/
 .heading,
@@ -147,4 +167,9 @@ a {
     font-style: italic;
     font-weight: 100;
     color: #1F2937;
+}
+
+.action-button,
+.action-banner {
+    background-color: #3882F6;
 }
